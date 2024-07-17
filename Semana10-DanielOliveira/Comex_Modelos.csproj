@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Comex</Title>
+    <Authors>Ariel</Authors>
+    <Version>1.0.0</Version>
+    <Company>Ariel</Company>
+    <Product>Comex</Product>
+    <Description>Um pacote para a aplicação Comex.</Description>
+    <Copyright>Aplicação de Código Aberto</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+  </ItemGroup>
+
+ 
+
+</Project>
+
+
+
+
+    
+    
+
+
+  
+
